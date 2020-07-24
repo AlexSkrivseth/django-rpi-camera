@@ -1,0 +1,13 @@
+# ADD THIS TO .gitignore!!
+# OR make a new file just for you localsetup
+
+
+# development
+PYTHONPATH=projectname
+DJANGO_SETTINGS_MODULE=genericsettings
+#production
+DJANGO_SECRET_KEY=secretkey
+
+#to get aws s3 working
+AWS_ACCESS_KEY_ID=uniquekeyid
+AWS_SECRET_ACCESS_KEY=uniquekey

@@ -1,0 +1,30 @@
+
+# helpful setup advice
+# https://www.freecodecamp.org/news/improve-your-django-project-with-these-best-practices-47fd60a7bff3/
+
+django==2.2.9
+
+# Restful Api anyone?
+djangorestframework>=3.9.1
+
+
+# to serve static files in a production enviroment
+# http://whitenoise.evans.io/en/stable/django.html
+whitenoise
+
+# for deployment
+# https://docs.gunicorn.org/en/stable/install.html
+gunicorn
+
+# For serving static file from AWS s3
+boto3
+django-storages
+
+# For deployment to heroku
+django-heroku
+
+
+#For classing up the template
+django-crispy-forms==1.7.2
+django-bootstrap4==0.0.6
+bootstrap4

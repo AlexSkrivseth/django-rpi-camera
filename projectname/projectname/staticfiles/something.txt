@@ -1,0 +1,1 @@
+This file is here for one reason and one reason alone. So that git will track the static folder and collectstatic will work.
