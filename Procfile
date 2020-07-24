@@ -1,1 +1,1 @@
-web: gunicorn projectname.wsgi
+web: gunicorn webcam_server.wsgi

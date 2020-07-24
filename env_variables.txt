@@ -5,6 +5,10 @@
 # development
 PYTHONPATH=projectname
 DJANGO_SETTINGS_MODULE=genericsettings
+
+export PYTHONPATH=webcam_server
+export DJANGO_SETTINGS_MODULE=webcam_server.settings.settings
+
 #production
 DJANGO_SECRET_KEY=secretkey
 
