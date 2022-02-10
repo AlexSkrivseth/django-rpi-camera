@@ -3,7 +3,7 @@
 # https://www.freecodecamp.org/news/improve-your-django-project-with-these-best-practices-47fd60a7bff3/
 # may need to enter this command to get pyscopg2 to install
 # export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-django==2.2.9
+django==2.2.27
 
 # Restful Api anyone?
 djangorestframework==3.9.1
